@@ -11,6 +11,14 @@ uses [pefile](https://github.com/erocarrera/pefile) and [iced_x86](https://githu
 
 - also applicable to the decryption routine used to calculate location of the next starting point of the bytecode and location of table containing handlers 
 
+same_binary_recompiled.zip - each binary is the same: provide 2 numbers and youll get output of 
+    ```
+    secret1:
+    secret2:
+    ```
+(dont remember but i think secret2 is addition LOL)
+
+
 # MUST READ
 
 ### VMProtect
