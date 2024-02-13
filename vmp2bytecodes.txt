@@ -1,0 +1,495 @@
+locations found!
+0x177603
+0x27c494
+LOC OF EP_FIRST_eNCRYPTED 2137378
+
+locations found!
+0x1f7e30 0xfbf18 0x7b6eb
+0xa031d312
+0x209d22 0x104e91 0x72772
+0x25c8a2 0x12e451 0x1ecf9b64
+0xef7ff6b9 not valid. removing..
+0x28acee 0x145677 0xffffffffd1c83f32
+0xda507b32 not valid. removing..
+0x2eb84e 0x175c27 0x19dc
+0x2eb864 0x175c32 0x19d1
+0x2eb87e 0x175c3f 0x19c4
+0x2eb898 0x175c4c 0x19b7
+0x2eb8ae 0x175c57 0x19ac
+0x2eb8c4 0x175c62 0x19a1
+0x2eb8da 0x175c6d 0x1996
+0x2ebbee 0x175df7 0x180c
+0x2ebc04 0x175e02 0x1801
+0x2ebc1a 0x175e0d 0x17f6
+0x2ebc30 0x175e18 0x17eb
+0x2ebc46 0x175e23 0x17e0
+0x2ebc5c 0x175e2e 0x17d5
+0x2ebc72 0x175e39 0x17ca
+0x2ebc88 0x175e44 0x17bf
+0x2ebc9e 0x175e4f 0x17b4
+0x2ebcb4 0x175e5a 0x17a9
+0x2ebcca 0x175e65 0x179e
+0x2ebce0 0x175e70 0x1793
+0x2ebcf6 0x175e7b 0x1788
+0x2ebd0c 0x175e86 0x177d
+0x2ebd22 0x175e91 0x1772
+0x2ebd38 0x175e9c 0x1767
+0x2ebd52 0x175ea9 0x175a
+0x2ebd68 0x175eb4 0x174f
+0x2ebd7e 0x175ebf 0x1744
+0x2ebd96 0x175ecb 0x1738
+0x2ebdac 0x175ed6 0x172d
+0x2ebdc2 0x175ee1 0x1722
+0x2ebdd8 0x175eec 0x1717
+0x2ebdee 0x175ef7 0x170c
+0x2ebe0a 0x175f05 0x16fe
+0x2ebe1e 0x175f0f 0x16f4
+0x2ebe3a 0x175f1d 0x16e6
+0x2ebe4e 0x175f27 0x16dc
+0x2ebe6a 0x175f35 0x16ce
+0x2ebe80 0x175f40 0x16c3
+0x2ebe9a 0x175f4d 0x16b6
+0x2ebeb0 0x175f58 0x16ab
+0x2ebec6 0x175f63 0x16a0
+0x2ebedc 0x175f6e 0x1695
+0x2ebef2 0x175f79 0x168a
+0x2ebf06 0x175f83 0x1680
+0x2ebf1a 0x175f8d 0x1676
+0x2ebf32 0x175f99 0x166a
+0x2ebf4a 0x175fa5 0x165e
+mov esi,[rsp+90h]
+not r10b
+rol esi,2
+cwde
+mov r11w,cx
+lahf
+dec esi
+movsx ebp,r10w
+bt r10,r10
+bswap esi
+cmc
+cbw
+btc rbp,rsi
+ror esi,3
+dec esi
+movsx r10,r9w
+rol esi,2
+neg esi
+rol r11d,0FFh
+cmp r12b,5Eh
+movzx r10d,ax
+sub esi,3B4E5F53h
+btc r11,76h
+bt bp,cx
+xchg al,bpl
+rol esi,1
+lea rsi,[rsi+rcx]
+adc bpl,dil
+mov r10,100000000h
+['rol esi,2', 'dec esi', 'bswap esi', 'ror esi,3', 'dec esi', 'rol esi,2', 'neg esi', 'sub esi,3B4E5F53h', 'rol esi,1']
+0x177603
+0x177603 - instr: push r11
+0x177605 - instr: push rsi
+0x177606 - instr: xchg r11b,sil
+0x177609 - instr: push rbp
+0x17760a - instr: push rbx
+0x17760b - instr: push r14
+0x17760d - instr: movsx rsi,bx
+0x177611 - instr: push rax
+0x177612 - instr: cdqe
+0x177614 - instr: push r13
+0x177616 - instr: push rcx
+0x177617 - instr: push r15
+0x177619 - instr: xchg r11b,cl
+0x17761c - instr: cdqe
+0x17761e - instr: push rdi
+0x17761f - instr: jmp near ptr 0000000000179064h
+distance: 0x1a45- instr: jmp near ptr 0000000000179064h
+following jmp: 0x179064
+RIP: 0x179064- instr: pushfq
+RIP: 0x179065- instr: jmp near ptr 0000000000176B60h
+{<class 'int'>}
+jmp target found: 0x176b60
+distance: -0x2505- instr: jmp near ptr 0000000000176B60h
+following jmp: 0x176b60
+RIP: 0x176b60- instr: push r12
+RIP: 0x176b62- instr: mov al,sil
+RIP: 0x176b65- instr: push r8
+RIP: 0x176b67- instr: push r9
+RIP: 0x176b69- instr: cdqe
+RIP: 0x176b6b- instr: stc
+RIP: 0x176b6c- instr: rol ch,34h
+RIP: 0x176b6f- instr: push r10
+RIP: 0x176b71- instr: seta sil
+RIP: 0x176b75- instr: movzx rsi,r12w
+RIP: 0x176b79- instr: rol r11b,4Ch
+RIP: 0x176b7d- instr: push rdx
+RIP: 0x176b7e- instr: bts ax,sp
+RIP: 0x176b82- instr: btc r10d,ebp
+RIP: 0x176b86- instr: btc r11w,57h
+RIP: 0x176b8c- instr: mov rcx,0
+RIP: 0x176b96- instr: push rcx
+RIP: 0x176b97- instr: rcl si,91h
+RIP: 0x176b9b- instr: ror r11b,cl
+RIP: 0x176b9e- instr: rol r10b,70h
+RIP: 0x176ba2- instr: mov esi,[rsp+90h]
+RIP: 0x176ba9- instr: not r10b
+RIP: 0x176bac- instr: rol esi,2
+RIP: 0x176baf- instr: cwde
+RIP: 0x176bb0- instr: mov r11w,cx
+RIP: 0x176bb4- instr: lahf
+RIP: 0x176bb5- instr: dec esi
+RIP: 0x176bb7- instr: movsx ebp,r10w
+RIP: 0x176bbb- instr: bt r10,r10
+RIP: 0x176bbf- instr: bswap esi
+RIP: 0x176bc1- instr: cmc
+RIP: 0x176bc2- instr: cbw
+RIP: 0x176bc4- instr: btc rbp,rsi
+RIP: 0x176bc8- instr: ror esi,3
+RIP: 0x176bcb- instr: dec esi
+RIP: 0x176bcd- instr: movsx r10,r9w
+RIP: 0x176bd1- instr: rol esi,2
+RIP: 0x176bd4- instr: neg esi
+RIP: 0x176bd6- instr: rol r11d,0FFh
+RIP: 0x176bda- instr: cmp r12b,5Eh
+RIP: 0x176bde- instr: movzx r10d,ax
+RIP: 0x176be2- instr: sub esi,3B4E5F53h
+RIP: 0x176be8- instr: btc r11,76h
+RIP: 0x176bed- instr: bt bp,cx
+RIP: 0x176bf1- instr: xchg al,bpl
+RIP: 0x176bf4- instr: rol esi,1
+RIP: 0x176bf6- instr: lea rsi,[rsi+rcx]
+RIP: 0x176bfa- instr: adc bpl,dil
+RIP: 0x176bfd- instr: mov r10,100000000h
+RIP: 0x176c07- instr: bts r11d,edx
+RIP: 0x176c0b- instr: adc rax,rsp
+RIP: 0x176c0e- instr: jmp near ptr 0000000000179F75h
+{<class 'int'>}
+jmp target found: 0x179f75
+distance: 0x3367- instr: jmp near ptr 0000000000179F75h
+following jmp: 0x179f75
+RIP: 0x179f75- instr: add rsi,r10
+RIP: 0x179f78- instr: btc r11w,92h
+RIP: 0x179f7e- instr: not r11w
+RIP: 0x179f82- instr: movsxd r11,ebx
+RIP: 0x179f85- instr: mov rbp,rsp
+RIP: 0x179f88- instr: sar r11b,cl
+RIP: 0x179f8b- instr: sub rsp,180h
+RIP: 0x179f92- instr: movsx rax,sp
+RIP: 0x179f96- instr: shl ax,57h
+RIP: 0x179f9a- instr: and rsp,0FFFFFFFFFFFFFFF0h
+RIP: 0x179fa1- instr: cmovle ax,r12w
+RIP: 0x179fa6- instr: sbb ax,6B3Fh
+RIP: 0x179faa- instr: lea r11,[179378h]
+maybe found? @ 0x179faa instr = lea r11,[179378h]
+len of table: 0
+0x179378
+0x40000000
+0x40179ef2
+entrypoint: 0x177603
+handler addr: 0x179ef2
+handler addr: 0x178c8f
+handler addr: 0x177da3
+handler addr: 0x178963
+handler addr: 0x178dfe
+handler addr: 0x177a84
+handler addr: 0x176635
+handler addr: 0x1770da
+handler addr: 0x176ddf
+handler addr: 0x1776bd
+handler addr: 0x176e3e
+handler addr: 0x178ea0
+handler addr: 0x177fdf
+handler addr: 0x179e55
+handler addr: 0x178941
+handler addr: 0x177a11
+handler addr: 0x17913c
+handler addr: 0x178cbb
+handler addr: 0x1773b5
+handler addr: 0x1771c6
+handler addr: 0x177ec8
+handler addr: 0x178107
+handler addr: 0x1782b6
+handler addr: 0x1786fa
+handler addr: 0x178f24
+handler addr: 0x176d3f
+handler addr: 0x178569
+handler addr: 0x1774f5
+handler addr: 0x178cdc
+handler addr: 0x177f73
+handler addr: 0x17747a
+handler addr: 0x178d61
+handler addr: 0x176c5f
+handler addr: 0x177824
+handler addr: 0x179e2c
+handler addr: 0x175fce
+handler addr: 0x178eea
+handler addr: 0x176f3a
+handler addr: 0x1779bf
+handler addr: 0x177a73
+handler addr: 0x177439
+handler addr: 0x1781f8
+handler addr: 0x177d87
+handler addr: 0x177468
+handler addr: 0x1790a0
+handler addr: 0x17647d
+handler addr: 0x179ea4
+handler addr: 0x178a82
+handler addr: 0x177306
+handler addr: 0x176327
+handler addr: 0x179d61
+handler addr: 0x1777b1
+handler addr: 0x17721f
+handler addr: 0x177ade
+handler addr: 0x178c52
+handler addr: 0x176f0b
+handler addr: 0x1772bd
+handler addr: 0x178629
+handler addr: 0x176420
+handler addr: 0x176403
+handler addr: 0x1784a4
+handler addr: 0x17922b
+handler addr: 0x178a13
+handler addr: 0x178ec1
+handler addr: 0x177f2c
+handler addr: 0x1761c6
+handler addr: 0x17603b
+handler addr: 0x178e13
+handler addr: 0x176e28
+handler addr: 0x177f95
+handler addr: 0x176c2a
+handler addr: 0x176e13
+handler addr: 0x17a07a
+handler addr: 0x17871d
+handler addr: 0x1778e8
+handler addr: 0x176fd2
+handler addr: 0x179dd8
+handler addr: 0x1792f9
+handler addr: 0x177c74
+handler addr: 0x178b63
+handler addr: 0x1782e1
+handler addr: 0x17771e
+handler addr: 0x179b81
+handler addr: 0x177007
+handler addr: 0x1766a7
+handler addr: 0x177767
+handler addr: 0x179cd2
+handler addr: 0x177c22
+handler addr: 0x177072
+handler addr: 0x177696
+handler addr: 0x1782a4
+handler addr: 0x178987
+handler addr: 0x179122
+handler addr: 0x178bb2
+handler addr: 0x179bd6
+handler addr: 0x179354
+handler addr: 0x178c40
+handler addr: 0x1765ae
+handler addr: 0x17774e
+handler addr: 0x1785a2
+handler addr: 0x177dfd
+handler addr: 0x17788d
+handler addr: 0x1764f3
+handler addr: 0x1762df
+handler addr: 0x176f6c
+handler addr: 0x17734c
+handler addr: 0x17864c
+handler addr: 0x176d95
+handler addr: 0x177f56
+handler addr: 0x17a055
+handler addr: 0x179f36
+handler addr: 0x17741c
+handler addr: 0x176b22
+handler addr: 0x17644e
+handler addr: 0x1792cb
+handler addr: 0x1780d1
+handler addr: 0x177dd4
+handler addr: 0x177e44
+handler addr: 0x178ce6
+handler addr: 0x17a091
+handler addr: 0x179c61
+handler addr: 0x178672
+handler addr: 0x177bce
+handler addr: 0x176186
+handler addr: 0x176064
+handler addr: 0x178872
+handler addr: 0x17878e
+handler addr: 0x178467
+handler addr: 0x176ebe
+handler addr: 0x179c93
+handler addr: 0x178efd
+handler addr: 0x17655e
+handler addr: 0x1760dd
+handler addr: 0x179d1e
+handler addr: 0x1791ab
+handler addr: 0x17718e
+handler addr: 0x1784cc
+handler addr: 0x179c7b
+handler addr: 0x179d9d
+handler addr: 0x1761d6
+handler addr: 0x176fa3
+handler addr: 0x179e96
+handler addr: 0x1784f0
+handler addr: 0x179c25
+handler addr: 0x177916
+handler addr: 0x177ca3
+handler addr: 0x178e52
+handler addr: 0x177c8f
+handler addr: 0x179ba3
+handler addr: 0x1775f9
+handler addr: 0x176436
+handler addr: 0x17a0a9
+handler addr: 0x17821b
+handler addr: 0x17631e
+handler addr: 0x177867
+handler addr: 0x17801e
+handler addr: 0x17766b
+handler addr: 0x17819a
+handler addr: 0x178a46
+handler addr: 0x176387
+handler addr: 0x179bf8
+handler addr: 0x176523
+handler addr: 0x178d3c
+handler addr: 0x176f23
+handler addr: 0x178aa0
+handler addr: 0x176d6d
+handler addr: 0x178284
+handler addr: 0x176cbb
+handler addr: 0x1766e0
+handler addr: 0x179d7e
+handler addr: 0x176c88
+handler addr: 0x179c35
+handler addr: 0x178c77
+handler addr: 0x1771f7
+handler addr: 0x1779a9
+handler addr: 0x177ad6
+handler addr: 0x176600
+handler addr: 0x177e65
+handler addr: 0x176fea
+handler addr: 0x179285
+handler addr: 0x177931
+handler addr: 0x177e87
+handler addr: 0x1787bf
+handler addr: 0x176107
+handler addr: 0x178590
+handler addr: 0x17628e
+handler addr: 0x179ecd
+handler addr: 0x1761f5
+handler addr: 0x178438
+handler addr: 0x1773f9
+handler addr: 0x1766bb
+handler addr: 0x178f58
+handler addr: 0x176307
+handler addr: 0x175fb1
+handler addr: 0x177d2b
+handler addr: 0x177125
+handler addr: 0x177c56
+handler addr: 0x176eec
+handler addr: 0x177535
+handler addr: 0x1776cb
+handler addr: 0x17832d
+handler addr: 0x178b09
+handler addr: 0x17932a
+handler addr: 0x1786cd
+handler addr: 0x1789ae
+handler addr: 0x179fc4
+handler addr: 0x177d4e
+handler addr: 0x178304
+handler addr: 0x178d15
+handler addr: 0x176cf4
+handler addr: 0x1762b4
+handler addr: 0x178470
+handler addr: 0x177fb8
+handler addr: 0x1774a2
+handler addr: 0x176231
+handler addr: 0x17780f
+handler addr: 0x1778c1
+handler addr: 0x178001
+handler addr: 0x178d84
+handler addr: 0x1788f2
+handler addr: 0x178685
+handler addr: 0x1787d2
+handler addr: 0x178ff8
+handler addr: 0x1777ee
+handler addr: 0x17838b
+handler addr: 0x1772e3
+handler addr: 0x177d9b
+handler addr: 0x17929e
+handler addr: 0x176e62
+handler addr: 0x1770bf
+handler addr: 0x177058
+handler addr: 0x17716b
+handler addr: 0x17a00f
+handler addr: 0x17758f
+handler addr: 0x179e7d
+handler addr: 0x179251
+handler addr: 0x17764e
+handler addr: 0x178048
+handler addr: 0x179054
+handler addr: 0x179e01
+handler addr: 0x176582
+handler addr: 0x1775de
+handler addr: 0x1781be
+handler addr: 0x177a48
+handler addr: 0x178dc6
+handler addr: 0x1783fa
+handler addr: 0x1765c9
+handler addr: 0x178892
+handler addr: 0x17a03b
+handler addr: 0x179073
+handler addr: 0x177e6d
+handler addr: 0x177aae
+handler addr: 0x178adf
+handler addr: 0x179173
+handler addr: 0x177624
+handler addr: 0x179fed
+len of table: 256
+ok done
+initial: 0xa031d312 decrypted: 0x401679e3
+initial: 0x91c594d2 decrypted: 0x40102b1c
+initial: 0xa1411312 decrypted: 0x40173cde
+initial: 0xbcea9492 decrypted: 0x40109670
+initial: 0xb94e9312 decrypted: 0x4017067e
+initial: 0xa77c5492 decrypted: 0x40104fc6
+initial: 0x8d475312 decrypted: 0x4017242e
+initial: 0xaa949312 decrypted: 0x4016eeb9
+initial: 0xbc8f1312 decrypted: 0x40170471
+initial: 0x89ac5492 decrypted: 0x4010903d
+initial: 0xa393d4d2 decrypted: 0x400ff1d5
+initial: 0xab6c14d2 decrypted: 0x400f90b6
+initial: 0xae67d312 decrypted: 0x4016a1aa
+initial: 0xab3e9312 decrypted: 0x401646b7
+initial: 0xb109d312 decrypted: 0x4017199f
+initial: 0xaa6b5492 decrypted: 0x401093ba
+initial: 0xbdfd1312 decrypted: 0x40164c6c
+initial: 0x9a5ed4d2 decrypted: 0x400fc5fa
+initial: 0xa1871312 decrypted: 0x401724dd
+initial: 0xafc4d4d2 decrypted: 0x40102da4
+initial: 0xbf07d4d2 decrypted: 0x40102167
+initial: 0x91a6d4d2 decrypted: 0x400fa61d
+initial: 0xa3141312 decrypted: 0x4016f0d7
+initial: 0xbaf81312 decrypted: 0x40166078
+initial: 0xb00d9512 decrypted: 0x400f0aa3
+initial: 0xa80114d2 decrypted: 0x40103cc3
+initial: 0x92261312 decrypted: 0x4016a91b
+initial: 0x9da7d4d2 decrypted: 0x400fa1ed
+initial: 0x8343d512 decrypted: 0x400f3256
+initial: 0x83ae5492 decrypted: 0x40108855
+initial: 0xb0a9d492 decrypted: 0x401099a1
+initial: 0xae8514d2 decrypted: 0x40102ca9
+initial: 0xba2cd312 decrypted: 0x40168d7b
+initial: 0xbeb65492 decrypted: 0x40106769
+initial: 0x8986d512 decrypted: 0x400f263d
+initial: 0xa56114d2 decrypted: 0x400fbcce
+initial: 0x8a4a9312 decrypted: 0x4017173a
+initial: 0x9d035312 decrypted: 0x401733ef
+initial: 0x913b5312 decrypted: 0x4016541f
+initial: 0xb08e94d2 decrypted: 0x401006a1
+initial: 0xac361312 decrypted: 0x401668b3
+initial: 0x937a1492 decrypted: 0x40105916
+initial: 0x85f314d2 decrypted: 0x400f754c
+initial: 0x94ab5312 decrypted: 0x40169411
+initial: 0xbd0f9512 decrypted: 0x400f026f
+initial: 0x9ac39312 decrypted: 0x401732f8
+initial: 0x85411512 decrypted: 0x400f3d4e
+initial: 0x882394d2 decrypted: 0x400fb343
